@@ -18,4 +18,4 @@ PHP : 8.3
 2. `docker compose up -d`でコンテナを立ち上げます。
 3. `docker compose exec phpunit composer install`でPHPUnitをインストールします。
 4. `docker exec -it phpunit bash`でコンテナの中に入ります。
-5. `vendor/bin/phpunit テスト.php`でテストをします。
+5. `vendor/bin/phpunit test/FizzBuzzTest.php `でFizzBuzzのテストコードが実行されたらOKです。
