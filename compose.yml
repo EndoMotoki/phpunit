@@ -1,0 +1,7 @@
+services:
+  phpunit:
+    container_name: phpunit
+    build: .
+    volumes:
+      - "./:/usr/src/app"
+    stdin_open: true
